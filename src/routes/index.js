@@ -73,7 +73,7 @@ const publicRoutes = [
 {
   path:"/websiteNVIDIA/userAdmin",
   component: userAdmin
-}
+},
 
 ];
 
