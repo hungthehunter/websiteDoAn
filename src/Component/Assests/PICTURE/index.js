@@ -30,7 +30,7 @@ const PICTURE={
  nvidia_studio_laptops:require("../PICTURE/nvidia-studio-laptops-and-desktops-evens-4c25-P@2x.jpg"),
  nvidia_dli_banner:require("../PICTURE/nvidia-dli-banner-background-image-spec2-bb300-d.jpg"),
  GeForce_RTX4080:require("../PICTURE/GeForce-RTX4080-Back.png"),
- GeForce_RTX4090:require("../PICTURE/GeForce-RTX4090-Back.png")
+ GeForce_RTX4090:require("../PICTURE/GeForce-RTX4090-Back.png"),
 }
 
 export default PICTURE;

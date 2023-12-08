@@ -23,8 +23,8 @@ const Shop_Fake = ({ isGridView , searchItem ,categoryFilters}) => {
     { id: 1, name: 'Màn hình Viewsonic VA2432-H-W 24" IPS 100Hz viền mỏng',picture:PICTURE.laptop , ProductCategory:"laptops" , Manufacturer:"NVIDIA" , Price:"$0_$20"},
   { id: 2, name: 'NVIDIA GeForce RTX 4090' ,picture:PICTURE.GeForce_RTX4090 , ProductCategory:"graphicsCards" , GPU:"GTX4090" , Manufacturer:"ASUS" , Price:"$0_$20"},
   { id: 3, name: 'NVIDIA GeForce RTX 4080' ,picture:PICTURE.GeForce_RTX4080 , ProductCategory:"graphicsCards", GPU:"GTX4080" , Manufacturer:"ACER" , Price:"$0_$20"},
-  { id: 4, name: 'NVIDIA GeForce RTX 4070' ,picture:PICTURE.laptop , ProductCategory:"graphicsCards" , GPU:"GTX4070Ti" , Manufacturer:"ACER" , Price:"$20_$50"},
-  { id: 5, name: 'NVIDIA GeForce RTX 4070 Ti' ,picture:PICTURE.laptop , ProductCategory:"graphicsCards" , GPU:"GTX4070" , Manufacturer:"ACER" , Price:"$20_$50"},
+  { id: 4, name: 'NVIDIA GeForce RTX 4070' ,picture:PICTURE.GeForce_RTX4070 , ProductCategory:"graphicsCards" , GPU:"GTX4070Ti" , Manufacturer:"ACER" , Price:"$20_$50"},
+  { id: 5, name: 'NVIDIA GeForce RTX 4070 Ti' ,picture:PICTURE.GeForce_RTX4070 , ProductCategory:"graphicsCards" , GPU:"GTX4070" , Manufacturer:"ACER" , Price:"$20_$50"},
   { id: 6, name: 'NVIDIA GeForce RTX 4060' ,picture:PICTURE.laptop , ProductCategory:"graphicsCards" , GPU:"GTX4060" , Manufacturer:"ACER" , Price:"$20_$50"},
    ]
 

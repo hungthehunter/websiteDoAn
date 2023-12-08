@@ -1,6 +1,5 @@
 import { useState } from "react";
 import PICTURE from "../../Assests/PICTURE";
-import GridViewToggleButton from "../../Button/GridViewToggleButton/GridViewToggleButton";
 import "../Shop/Shop.scss";
 import Shop_Fake from "./Shop_Fake";
 function Shop(){
@@ -394,7 +393,7 @@ return(
                   <i className="fa fa-search" aria-hidden="true" />
                 </button>
               </div>
-              <div className="bounding-box">
+              {/* <div className="bounding-box">
                 <div className="sort-section">
                   <label htmlFor="" className="sort-label">
                     Sort by:
@@ -413,12 +412,12 @@ return(
            handleGridViewClick={handleGridViewClick}
            searchItem={searchItem}
           />
-              </div>
+              </div> */}
               <div className="total-product-list">
-                <div className="total-product">221 results found</div>
+                {/* <div className="total-product">221 results found</div> */}
               </div>
               <div className="featured-container">
-                <div className="call-out search-label">Featured</div>
+                <div className="call-out search-label">New Product</div>
                 <div className="product-main-container">
                   <div className="img-col-lg">
                     <div className="img-lg">
@@ -501,9 +500,9 @@ return(
             <a href="">Contact</a>
           </div>
         </div>
-        <div className="right-link">
+        {/* <div className="right-link">
           <button className="compare-btn">Compare 4/4</button>
-        </div>
+        </div> */}
       </div>
     </footer>
   </div>
