@@ -25,7 +25,7 @@ const publicRoutes = [
   },
 
   {
-   path: "/websiteNVIDIA/Shop",
+    path: "/websiteNVIDIA/Shop",
    component: Shop,
   },
 
