@@ -63,7 +63,8 @@ const publicRoutes = [
 },
 {
   path:"/CustomerOrderDetail",
-  component: CustomerOrderDetail
+  component: CustomerOrderDetail,
+  layout: BodyOnly
 },
 {
   path:"/userAdmin",

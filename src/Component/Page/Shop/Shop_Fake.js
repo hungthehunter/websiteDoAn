@@ -32,6 +32,7 @@ const Shop_Fake = ({ isGridView, searchItem, categoryFilters }) => {
       Line3: "Storage: 1 TB SSD",
       Line4: "CPU: Intel Core i9-13980HX",
       Link:"/Products",
+      Pricey:"$16.199"
     },
     {
       id: 2,
@@ -45,6 +46,7 @@ const Shop_Fake = ({ isGridView, searchItem, categoryFilters }) => {
       Line2: "GPU Memory Size: 24 GB",
       Line3: "Cooling System: Fan",
       Link:"/Products_gtx_4090",
+      Pricey:"$18.199"
     },
     {
       id: 3,
@@ -58,6 +60,7 @@ const Shop_Fake = ({ isGridView, searchItem, categoryFilters }) => {
       Line2: "GPU Memory Size: 16 GB",
       Line3: "Cooling System: Active",
       Link:"/Products_gtx_4080",
+      Pricey:"$17.899"
     },
     {
       id: 4,
@@ -71,6 +74,7 @@ const Shop_Fake = ({ isGridView, searchItem, categoryFilters }) => {
       Line2: "GPU Memory Size: 12GB",
       Line3: "Cooling System: Active",
       Link:"/Products_gtx_4070Ti",
+      Pricey:"$17.199"
     },
     {
       id: 5,
@@ -84,6 +88,7 @@ const Shop_Fake = ({ isGridView, searchItem, categoryFilters }) => {
       Line2: "GPU Memory Size: 24GB",
       Line3: "Cooling System: Advance",
       Link:"/Products_gtx_Titan",
+      Pricey:"$152.199"
     },
     {
       id: 6,
@@ -97,6 +102,7 @@ const Shop_Fake = ({ isGridView, searchItem, categoryFilters }) => {
       Line2: "GPU Memory Size: 8 GB",
       Line3: "Cooling System: Fan",
       Link:"/Products_gtx_4060",
+      Pricey:"$15.199"
     },
   ];
 
@@ -187,7 +193,7 @@ const Shop_Fake = ({ isGridView, searchItem, categoryFilters }) => {
                   }`}
                 >
                   <div className="price">
-                    $12,199<span className="decimal">00</span>
+                    {item.Pricey}<span className="decimal">00</span>
                   </div>
                   <div className="buy-link">
                     <a

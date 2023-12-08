@@ -1,9 +1,15 @@
+
 import { faCircleUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import icon from '../../Assests/ICON';
 import './orderAdmin.scss'; // Import your stylesheet
 
 class OrderAdmin extends React.Component {
+    
+
+
+    
     openSidebar = () => {
         document.getElementById("main").style.marginLeft = "15%";
         document.getElementById("mySidebar").style.width = "15%";
@@ -17,6 +23,8 @@ class OrderAdmin extends React.Component {
         document.getElementById("openNav").style.display = "inline-block";
     }
 
+
+    
     render() {
         return (
             <div className='orderAdmin'>
@@ -33,9 +41,13 @@ class OrderAdmin extends React.Component {
                         <nav>
                             <ul className="navbar-list">
                                 <li className="left">
-                                    <a href="productAdmin.html">
-                                        <img src="" alt="Logo" />
-                                    </a>
+                                <a href="/">
+                <img
+                  src={icon.nvidia}
+                  alt="nvidia-icon"
+                  style={{ width: 110, height: 44 }}
+                ></img>
+                </a>
                                 </li>
                                 <div className="right">
                                     <li>
@@ -54,7 +66,7 @@ class OrderAdmin extends React.Component {
                             <ul>
                                 <li><a onClick={this.closeSidebar}>Đóng &times;</a></li>
                                 <li><a className="active">Đơn hàng</a></li>
-                                <li><a href="userAdmin.html">Người dùng</a></li>
+                                <li><a href="/userAdmin">Người dùng</a></li>
                             </ul>
                         </aside>
                         <section id="main">
@@ -70,78 +82,51 @@ class OrderAdmin extends React.Component {
                                 <a href="orderAdmin.html" className="show">Xem</a>
                             </div>
                             <table>
-                                <tr className="title">
-                                    <th>ID</th>
-                                    <th>Đơn hàng</th>
-                                    <th>Địa chỉ</th>
-                                    <th>Thành tiền</th>
-                                    <th>Trạng thái</th>
-                                </tr>
-                                <tr className="product">
-                                    <td>#1</td>
-                                    <td>
-                                        <a href="orderDetail.html">
-                                            <img src="" alt="lap1" />
-                                            <div>
-                                                <p></p>
-                                                <p></p>
-                                                <p className="another">(2 sản phẩm khác)</p>
-                                            </div>
-                                        </a>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td className="state"></td>
-                                </tr>
-                                <tr className="product">
-                                    <td>#2</td>
-                                    <td>
-                                        <a href="orderDetail.html">
-                                            <img src="" alt="lap1" />
-                                            <div>
-                                                <p></p>
-                                                <p></p>
-                                                <p className="another">(2 sản phẩm khác)</p>
-                                            </div>
-                                        </a>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td className="state">Đã nhận</td>
-                                </tr>
-                                <tr className="product">
-                                    <td>#3</td>
-                                    <td>
-                                        <a href="orderDetail.html">
-                                            <img src="" alt="lap1" />
-                                            <div>
-                                                <p></p>
-                                                <p></p>
-                                                <p className="another">(2 sản phẩm khác)</p>
-                                            </div>
-                                        </a>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td className="state">Đã nhận</td>
-                                </tr>
-                                <tr className="product">
-                                    <td>#4</td>
-                                    <td>
-                                        <a href="orderDetail.html">
-                                            <img src="" alt="lap1" />
-                                            <div>
-                                                <p></p>
-                                                <p></p>
-                                                <p className="another">(2 sản phẩm khác)</p>
-                                            </div>
-                                        </a>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td className="state">Đã nhận</td>
-                                </tr>
-                            </table>
+      <thead>
+        <tr className="title">
+          <th>ID</th>
+          <th>Đơn hàng</th>
+          <th>Địa chỉ</th>
+          <th>Thành tiền</th>
+          <th>Trạng thái</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr className="product">
+          <td>#1</td>
+          <td>
+            <a href="orderDetail.html">
+              <img src="path_to_image_1" alt="lap1" />
+              <div>
+                <p>Product Name 1</p>
+                <p>Product Description 1</p>
+                <p className="another">(2 sản phẩm khác)</p>
+              </div>
+            </a>
+          </td>
+          <td>Address 1</td>
+          <td>Total 1</td>
+          <td className="state"></td>
+        </tr>
+        <tr className="product">
+          <td>#2</td>
+          <td>
+            <a href="orderDetail.html">
+              <img src="path_to_image_2" alt="lap1" />
+              <div>
+                <p>Product Name 2</p>
+                <p>Product Description 2</p>
+                <p className="another">(2 sản phẩm khác)</p>
+              </div>
+            </a>
+          </td>
+          <td>Address 2</td>
+          <td>Total 2</td>
+          <td className="state">Đã nhận</td>
+        </tr>
+        {/* Repeat similar structure for other rows */}
+      </tbody>
+    </table>
                         </section>
                     </main>
                 </body>
