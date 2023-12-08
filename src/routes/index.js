@@ -14,64 +14,64 @@ import Service from "../Component/Page/Service/Service.js";
 import Shop from "../Component/Page/Shop/Shop.js";
 const publicRoutes = [
   {
-    path: "/",
+    path: "/websiteNVIDIA/",
     component: NVDIA_STORE_MAIN,
 
   },
 
   {
-    path: "/Service",
+    path: "/websiteNVIDIA/Service",
     component: Service,
   },
 
   {
-   path: "/Shop",
+   path: "/websiteNVIDIA/Shop",
    component: Shop,
   },
 
   {
-    path: "/Login",
+    path: "/websiteNVIDIA/Login",
     component: Login,
     layout:HeaderOnly
   },
   {
-    path: "/Search",
+    path: "/websiteNVIDIA/Search",
     component: Search,
   },
   {
-    path:"/Main",
+    path:"/websiteNVIDIA/Main",
     component: NVDIA_STORE_MAIN,
   },
   {
-    path:"/Products",
+    path:"/websiteNVIDIA/Products",
     component: Products
   },
   {
-    path:"/Products_gtx_4080",
+    path:"/websiteNVIDIA/Products_gtx_4080",
     component: Products_gtx_4080
   },
   {
-    path:"/Products_gtx_4090",
+    path:"/websiteNVIDIA/Products_gtx_4090",
     component: Products_gtx_4090
   },
 {
-  path:"/Policy",
+  path:"/websiteNVIDIA/Policy",
   component: Policy
 },
 {
-  path:"/CustomerAddressForm",
+  path:"/websiteNVIDIA/CustomerAddressForm",
   component: CustomerAddressForm
 },
 {
-  path:"/CustomerOrderDetail",
+  path:"/websiteNVIDIA/CustomerOrderDetail",
   component: CustomerOrderDetail
 },
 {
-  path:"/orderAdmin",
+  path:"/websiteNVIDIA/orderAdmin",
   component: orderAdmin
 },
 {
-  path:"/userAdmin",
+  path:"/websiteNVIDIA/userAdmin",
   component: userAdmin
 }
 
