@@ -67,14 +67,13 @@ const publicRoutes = [
   component: CustomerOrderDetail
 },
 {
-  path:"/websiteNVIDIA/orderAdmin",
-  component: orderAdmin
-},
-{
   path:"/websiteNVIDIA/userAdmin",
   component: userAdmin
 },
-
+{
+  path:"/websiteNVIDIA/orderAdmin",
+  component: orderAdmin
+},
 ];
 
 const privateRoutes = {};
