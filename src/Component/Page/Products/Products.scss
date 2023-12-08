@@ -30,6 +30,12 @@ button.btn-buynow {
   margin-top: 3px;
 }
 
+.link{
+  text-decoration: none; /* Loại bỏ gạch chân mặc định */
+  color: inherit; /* Kế thừa màu chữ từ phần tử cha (có thể thay đổi tùy thuộc vào yêu cầu) */
+  cursor: pointer;
+}
+
 .products {
 // margin-top: 50px;
 // margin-bottom: 50px;

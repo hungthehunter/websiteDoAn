@@ -21,6 +21,7 @@ function Shop(){
       $0_$20:false,
       $20_$50:false,
       Above$50:false,
+      GTX_Titan:false,
     });
 
 
@@ -223,12 +224,12 @@ return(
                       <input 
                         type="checkbox"
                         className="small-button"
-                        id="RTX4070"
-                        checked={categoryFilters.GTX4070}
-                        onChange={() => handleCategoryChange("RTX4070")}
+                        id="GTX_Titan"
+                        checked={categoryFilters.GTX_Titan}
+                        onChange={() => handleCategoryChange("GTX_Titan")}
                       />
                       <label htmlFor="" className="c-checkbox__label">
-                        <span htmlFor="">RTX 4070 </span>
+                        <span htmlFor="">GTX Titan</span>
                       </label>
              
                     </div>
@@ -444,7 +445,7 @@ return(
                           </div>
                         </li>
                       </ul>
-                      <span className="bundle-icon">Special Offer</span>
+            
                     </div>
                   </div>
                   <div className="buy-main-col-lg">

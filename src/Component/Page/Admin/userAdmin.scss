@@ -2,8 +2,14 @@
 
 
 
-
 .userAdmin{
+
+.wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
 	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 	* {
 		margin: 0;
@@ -175,13 +181,14 @@
 		margin-top: 10px;
 	}
 	
-	table{
+	table {
 		margin: 10px auto;
 		width: 90%;
 		text-align: center;
 		border-collapse: separate;
-		border-spacing: 20px;
+		border-spacing: 20px 10px; // Adjust the values as needed
 	}
+	
 	
 	th{
 		font-size: 20px;
@@ -199,10 +206,11 @@
 		border-radius: 4px;
 	}
 	
-	.user td{
-		padding: 10px 0 10px 20px;
+	.user td {
+		padding: 15px 20px; // Adjust the values as needed
 		border-radius: 4px;
 	}
+	
 	
 	input[type="checkbox"]{
 		width: 50px;

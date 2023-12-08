@@ -3,7 +3,7 @@ import { BsSlashLg } from "react-icons/bs";
 import { FaHome } from "react-icons/fa";
 import PICTURE from "../../Assests/PICTURE";
 import "../Products/Products.scss";
-function Products_gtx_4090() {
+function Products_gtx_4070Ti() {
 const [gtx_4090Off,gtx_4090On]=useState(false);
 const toggleGtx_4090= () => {
 };
@@ -39,7 +39,7 @@ const toggleGtx_4090= () => {
           <div className="row">
             <div className="products-content">
               <div className="col l-4">
-                <img src={PICTURE.GeForce_RTX4090} className="products-picture"></img>
+                <img src={PICTURE.GeForce_RTX4070Ti} className="products-picture"></img>
               </div>
               <div className="col l-8">
                 <div className="products-title-heading">
@@ -53,12 +53,12 @@ const toggleGtx_4090= () => {
 
                 <div className="action-buys">
                   <button className="button btn-buynow" onClick={toggleGtx_4090}>
-        
+            
                     <span className="maintext">BUY NOW</span>
                     <span className="subtext">
                       Delivery to your door or pick up from the store
                     </span>
-               
+              
                   </button>
                 </div>
 
@@ -514,5 +514,5 @@ const toggleGtx_4090= () => {
   );
 }
 
-export default Products_gtx_4090;
+export default Products_gtx_4070Ti;
 

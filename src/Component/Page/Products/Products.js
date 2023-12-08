@@ -21,15 +21,19 @@ function Products() {
               <div className="breadcrumb-list">
                 <ol>
                   <li>
-                    <a href="/">
+                 
+                  <a href="/">
         < FaHome  style={{color:"blue",paddingRight:4}} size={20} ></ FaHome>
         <span>Home Page           <span><BsSlashLg style={{marginLeft:0,marginRight:0}}></BsSlashLg></span>
               
-                    <span style={{color:"black"}}> Màn hình Viewsonic VA2432-H-W 24" IPS 100Hz viền mỏng
+                    <span style={{color:"black"}}> ASUS PROART GeForce RTX 4090 24GB (PROART-RTX4090-24G)
                     </span></span>
 
                    
                     </a>
+
+                   
+            
                   </li>
                 </ol>
               </div>
@@ -52,10 +56,12 @@ function Products() {
 
                 <div className="action-buys">
                   <button className="button btn-buynow" onClick={toggleLaptop}>
+           
                     <span className="maintext">BUY NOW</span>
                     <span className="subtext">
                       Delivery to your door or pick up from the store
                     </span>
+                  
                   </button>
 
                 </div>
@@ -443,6 +449,7 @@ function Products() {
                           <a
                             className="aspect-ratio"
                             href="https://gvn360.com/cong-nghe/galax-rtx-4090-la-gpu-dau-tien-co-hdmi-retimer-de-truyen-du-lieu-duong-dai/"
+                            
                           >
                             <img
                               src={PICTURE.cardnew}
@@ -460,7 +467,7 @@ function Products() {
                         <div className="img-post">
                           <a
                             className="aspect-ratio"
-                            href="https://www.bing.com/search?pglt=41&q=CPU-Z+kh%C3%B4ng+c%C3%B2n+l%C3%A0+c%C3%B4ng+c%E1%BB%A5+benchmark+CPU+l%C3%BD+t%C6%B0%E1%BB%9Fng+n%E1%BB%AFa&cvid=93dbdc53dcf0417ab0bbc272dd8a0ab0&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg80gEIMTAxMmowajGoAgCwAgA&FORM=ANAB01&PC=CNNDDB"
+                            href="https://gearvn.com/blogs/cong-nghe/cpu-z-khong-con-la-cong-cu-benchmark-cpu-ly-tuong-nua"
                           >
                             <img
                               src={PICTURE.cpu}

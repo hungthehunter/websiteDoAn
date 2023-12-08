@@ -3,7 +3,7 @@ import { BsSlashLg } from "react-icons/bs";
 import { FaHome } from "react-icons/fa";
 import PICTURE from "../../Assests/PICTURE";
 import "../Products/Products.scss";
-function Products_gtx_4090() {
+function Products_gtx_4060() {
 const [gtx_4090Off,gtx_4090On]=useState(false);
 const toggleGtx_4090= () => {
 };
@@ -21,7 +21,7 @@ const toggleGtx_4090= () => {
         < FaHome  style={{color:"blue",paddingRight:4}} size={20} ></ FaHome>
         <span>Home Page           <span><BsSlashLg style={{marginLeft:0,marginRight:0}}></BsSlashLg></span>
               
-                    <span style={{color:"black"}}> ASUS PROART GeForce RTX 4090 24GB (PROART-RTX4090-24G)
+                    <span style={{color:"black"}}> ASUS PROART GeForce RTX 4060 24GB (PROART-RTX4090-24G)
                     </span></span>
 
                    
@@ -39,11 +39,11 @@ const toggleGtx_4090= () => {
           <div className="row">
             <div className="products-content">
               <div className="col l-4">
-                <img src={PICTURE.GeForce_RTX4090} className="products-picture"></img>
+                <img src={PICTURE.GeForce_RTX4060} className="products-picture"></img>
               </div>
               <div className="col l-8">
                 <div className="products-title-heading">
-                <h2>ASUS PROART GeForce RTX 4090 24GB (PROART-RTX4090-24G)</h2>
+                <h2>ASUS PROART GeForce RTX 4060 24GB (PROART-RTX4090-24G)</h2>
                 </div>
                 <div className="products-price">
                   <span className="products-price-new">5.550.000₫</span>
@@ -53,12 +53,12 @@ const toggleGtx_4090= () => {
 
                 <div className="action-buys">
                   <button className="button btn-buynow" onClick={toggleGtx_4090}>
-        
+      
                     <span className="maintext">BUY NOW</span>
                     <span className="subtext">
                       Delivery to your door or pick up from the store
                     </span>
-               
+    
                   </button>
                 </div>
 
@@ -430,17 +430,17 @@ const toggleGtx_4090= () => {
                         <div className="img-post">
                           <a
                             className="aspect-ratio"
-                            href="https://gvn360.com/cong-nghe/galax-rtx-4090-la-gpu-dau-tien-co-hdmi-retimer-de-truyen-du-lieu-duong-dai/"
+                            href="https://gvn360.com/cong-nghe/galax-rtx 4060-la-gpu-dau-tien-co-hdmi-retimer-de-truyen-du-lieu-duong-dai/"
                           >
                             <img
                               src={PICTURE.cardnew}
-                              alt="Galax RTX 4090 là GPU đầu tiên có HDMI Retimer để truyền dữ liệu đường dài"
+                              alt="Galax RTX 4060 là GPU đầu tiên có HDMI Retimer để truyền dữ liệu đường dài"
                             ></img>
                           </a>
                         </div>
                         <div className="info-post">
                           <h3>
-                          <a href="https://gvn360.com/cong-nghe/galax-rtx-4090-la-gpu-dau-tien-co-hdmi-retimer-de-truyen-du-lieu-duong-dai/">Galax RTX 4090 là GPU đầu tiên có HDMI Retimer để truyền dữ liệu đường dài</a>
+                          <a href="https://gvn360.com/cong-nghe/galax-rtx 4060-la-gpu-dau-tien-co-hdmi-retimer-de-truyen-du-lieu-duong-dai/">Galax RTX 4060 là GPU đầu tiên có HDMI Retimer để truyền dữ liệu đường dài</a>
                           </h3>
                         </div>
                       </li>
@@ -484,7 +484,7 @@ const toggleGtx_4090= () => {
                         <div className="img-post">
                           <a
                             className="aspect-ratio"
-                            href="https://gvn360.com/cong-nghe/galax-rtx-4090-la-gpu-dau-tien-co-hdmi-retimer-de-truyen-du-lieu-duong-dai/"
+                            href="https://gvn360.com/cong-nghe/galax-rtx 4060-la-gpu-dau-tien-co-hdmi-retimer-de-truyen-du-lieu-duong-dai/"
                           >
                             <img
                               src={PICTURE.flag}
@@ -495,7 +495,7 @@ const toggleGtx_4090= () => {
                         </div>
                         <div className="info-post">
                           <h3>
-                          <a href="https://gearvn.com/blogs/cong-nghe/viet-nam-dat-muc-tieu-tro-thanh-quoc-gia-san-xuat-bong-ban-dan">Galax RTX 4090 là GPU đầu tiên có HDMI Retimer để truyền dữ liệu đường dài</a>
+                          <a href="https://gearvn.com/blogs/cong-nghe/viet-nam-dat-muc-tieu-tro-thanh-quoc-gia-san-xuat-bong-ban-dan">Galax RTX 4060 là GPU đầu tiên có HDMI Retimer để truyền dữ liệu đường dài</a>
                           </h3>
                         </div>
                       </li>
@@ -514,5 +514,5 @@ const toggleGtx_4090= () => {
   );
 }
 
-export default Products_gtx_4090;
+export default Products_gtx_4060;
 

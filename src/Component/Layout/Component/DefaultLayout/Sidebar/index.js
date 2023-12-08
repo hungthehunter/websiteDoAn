@@ -5,6 +5,7 @@ import { BiLogOut } from "react-icons/bi";
 import { BsHouseDoor } from "react-icons/bs";
 import { IoPeopleOutline } from "react-icons/io5";
 import { LuPhoneCall } from "react-icons/lu";
+import { RiAdminFill } from "react-icons/ri";
 import icon from "../../../../Assests/ICON";
 import Toggle from "../../../../Button/Toggle";
 import styles from "./Sidebar.module.scss";
@@ -79,6 +80,19 @@ const buttonChange=()=>{
           </li>
         </ul>
         <ul className={cx("sidebar-tool", "flex-end")}>
+<li>
+  <a href="/CustomerOrderDetail">
+    <span>
+  <RiAdminFill 
+  size={45}
+  className={cx("icon")}
+  style={{color:fontColor}}
+  ></RiAdminFill>
+  </span>
+  Admin
+  </a>
+</li>
+        
           <li>
             <a href="/Login" style={{ color: fontColor }}>
               <span>

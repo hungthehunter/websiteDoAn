@@ -56,11 +56,13 @@ function Products_gtx_4080() {
 
                 <div className="action-buys">
                   <button className="button btn-buynow" onClick={toggleGtx_4080}>
+     
                     <Cart gtx_4080Off={gtx_4080Off}></Cart>
                     <span className="maintext">BUY NOW</span>
                     <span className="subtext">
                       Delivery to your door or pick up from the store
                     </span>
+            
                   </button>
                 </div>
 
