@@ -1,14 +1,12 @@
-import { Fragment } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import { DefaultLayout } from "./Component/Layout";
-import { publicRoutes } from "./routes/index";
-
+import NVDIA_STORE_MAIN from "../Component/Page/Main/NVDIA_STORE_MAIN.js";
+import Shop from '../Component/Page/Shop/index.js';
 function App() {
   return (
    
     <Router>
       <div className="App">
-        <Routes >
+        {/* <Routes >
           {publicRoutes.map((route, index) => {
              console.log(`Mapping route: ${route.path}`);
             const Page = route.component;
@@ -31,6 +29,11 @@ function App() {
               />
             );
           })}
+        </Routes> */}
+
+        <Routes>
+          <Route   path="/websiteDoAn/" element={<NVDIA_STORE_MAIN/>}/>
+          <Route   path="/websiteDoAn/Shop" element={<Shop/>}/>
         </Routes>
       </div>
     </Router>
