@@ -31,7 +31,7 @@ const Shop_Fake = ({ isGridView, searchItem, categoryFilters }) => {
       Line2: "Memory: 16 GB DDR5-SDRAM",
       Line3: "Storage: 1 TB SSD",
       Line4: "CPU: Intel Core i9-13980HX",
-      Link:"/Products",
+      Link:"/websiteDoAn/Products",
       Pricey:"$16.199"
     },
     {
@@ -45,7 +45,7 @@ const Shop_Fake = ({ isGridView, searchItem, categoryFilters }) => {
       Line1: "Boost Clock Speed: 2.52 GHz",
       Line2: "GPU Memory Size: 24 GB",
       Line3: "Cooling System: Fan",
-      Link:"/Products_gtx_4090",
+      Link:"/websiteDoAn/Products_gtx_4090",
       Pricey:"$18.199"
     },
     {
@@ -59,7 +59,7 @@ const Shop_Fake = ({ isGridView, searchItem, categoryFilters }) => {
       Line1: "Boost Clock Speed: 2535 MHz",
       Line2: "GPU Memory Size: 16 GB",
       Line3: "Cooling System: Active",
-      Link:"/Products_gtx_4080",
+      Link:"/websiteDoAn/Products_gtx_4080",
       Pricey:"$17.899"
     },
     {
@@ -73,7 +73,7 @@ const Shop_Fake = ({ isGridView, searchItem, categoryFilters }) => {
       Line1: "Boost Clock Speed: 2670 MHz",
       Line2: "GPU Memory Size: 12GB",
       Line3: "Cooling System: Active",
-      Link:"/Products_gtx_4070Ti",
+      Link:"/websiteDoAn/Products_gtx_4070Ti",
       Pricey:"$17.199"
     },
     {
@@ -87,7 +87,7 @@ const Shop_Fake = ({ isGridView, searchItem, categoryFilters }) => {
       Line1: "Boost Clock Speed: 3770 MHz",
       Line2: "GPU Memory Size: 24GB",
       Line3: "Cooling System: Advance",
-      Link:"/Products_gtx_Titan",
+      Link:"/websiteDoAn/Products_gtx_Titan",
       Pricey:"$152.199"
     },
     {
@@ -101,7 +101,7 @@ const Shop_Fake = ({ isGridView, searchItem, categoryFilters }) => {
       Line1: "Boost Clock Speed: 2.54 GHz",
       Line2: "GPU Memory Size: 8 GB",
       Line3: "Cooling System: Fan",
-      Link:"/Products_gtx_4060",
+      Link:"/websiteDoAn/Products_gtx_4060",
       Pricey:"$15.199"
     },
   ];

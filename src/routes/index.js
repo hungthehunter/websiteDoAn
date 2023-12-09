@@ -17,76 +17,75 @@ import Service from "../Component/Page/Service/Service.js";
 import Shop from "../Component/Page/Shop/Shop.js";
 const publicRoutes = [
   {
-    path:  process.env.PUBLIC_URL+"/",
-    component: NVDIA_STORE_MAIN,
-
-  },
-
-  {
-    path: process.env.PUBLIC_URL+"/Service",
-    component: Service,
-  },
-
-  {
-    path: process.env.PUBLIC_URL+"/Shop",
-   component: Shop,
-  },
-
-  {
-    path: process.env.PUBLIC_URL+"/Login",
-    component: Login,
-    layout:HeaderOnly
-  },
-  {
-    path: process.env.PUBLIC_URL+"/Search",
-    component: Search,
-  },
-  {
-    path: process.env.PUBLIC_URL+"/Main",
+    path: "/websiteDoAn",
     component: NVDIA_STORE_MAIN,
   },
+  
+    {
+      path: "/websiteDoAn/Service",
+      component: Service,
+    },
+    {
+      path: "/websiteDoAn/Shop",
+      component: Shop,
+    },
+    {
+      path: "/websiteDoAn/Login",
+      component: Login,
+      layout: HeaderOnly,
+    },
+    {
+      path: "/websiteDoAn/Search",
+      component: Search,
+    },
+    // ... other routes
+  
   {
-    path: process.env.PUBLIC_URL+"/Products",
+    path:"/websiteDoAn/Main",
+    component: NVDIA_STORE_MAIN,
+  },
+  {
+    path:"/websiteDoAn/Products",
     component: Products
   },
   {
-    path: process.env.PUBLIC_URL+"/Products_gtx_4080",
+    path:"/websiteDoAn/Products_gtx_4080",
     component: Products_gtx_4080
   },
   {
-    path: process.env.PUBLIC_URL+"/Products_gtx_4090",
+    path:"/websiteDoAn/Products_gtx_4090",
     component: Products_gtx_4090
   },
 {
-  path: process.env.PUBLIC_URL+"/Policy",
+  path:"/websiteDoAn/Policy",
   component: Policy
 },
 {
-  path: process.env.PUBLIC_URL+"/CustomerOrderDetail",
+  path:"/websiteDoAn/CustomerOrderDetail",
   component: CustomerOrderDetail,
   layout: BodyOnly
 },
 {
-  path: process.env.PUBLIC_URL+"/userAdmin",
+  path:"/websiteDoAn/userAdmin",
   component: userAdmin,
   layout: BodyOnly
 
 },
 {
-  path: process.env.PUBLIC_URL+"/orderAdmin",
+  path:"/websiteDoAn/orderAdmin",
   component: orderAdmin,
   layout: BodyOnly
 },
 {
-  path: process.env.PUBLIC_URL+"/Products_gtx_Titan",
+  path:"/websiteDoAn/Products_gtx_Titan",
   component:Products_gtx_Titan
 },
 {
-  path: process.env.PUBLIC_URL+"/Products_gtx_4070Ti",
+  path:"/websiteDoAn/Products_gtx_4070Ti",
   component: Products_gtx_4070Ti
 },
 {
-  path: process.env.PUBLIC_URL+"/Products_gtx_4060",
+  path:"/websiteDoAn/Products_gtx_4060",
   component: Products_gtx_4060
 },
 ];

@@ -6,7 +6,7 @@ import { publicRoutes } from "./routes";
 function App() {
   return (
    
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router >
       <div className="App">
         <Routes>
           {publicRoutes.map((route, index) => {

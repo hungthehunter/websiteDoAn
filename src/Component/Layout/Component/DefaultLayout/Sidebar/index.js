@@ -81,7 +81,7 @@ const buttonChange=()=>{
         </ul>
         <ul className={cx("sidebar-tool", "flex-end")}>
 <li>
-  <a href="/CustomerOrderDetail">
+  <a href="/websiteDoAn/CustomerOrderDetail">
     <span>
   <RiAdminFill 
   size={45}

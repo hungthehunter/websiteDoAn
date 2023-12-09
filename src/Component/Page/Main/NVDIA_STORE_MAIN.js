@@ -191,12 +191,12 @@ function NVDIA_STORE_MAIN() {
                      
                       </a>
                       <div className="item-content text-center">
-                        <a href="/Shop" className="address-name-item">
+                        <a href="/websiteDoAn/Shop" className="address-name-item">
                           <h3 className="color-black">
                             GeForce Graphics Cards and Desktops
                           </h3>
                         </a>
-                        <a href="/Shop" className="address-shop-item color-green ">
+                        <a href="/websiteDoAn/Shop" className="address-shop-item color-green ">
                           Shop Now &nbsp;
                           <i
                             className="icon-content fa fa-angle-right"
@@ -208,7 +208,7 @@ function NVDIA_STORE_MAIN() {
                   </div>
                   <div className="  mt-32 text-center col l-3 m-6 c-12">
                     <div className="list-item">
-                      <a href="/Shop">
+                      <a href="/websiteDoAn/Shop">
                         <img
                           src={PICTURE.geforce_rtx_30}
                           alt="geforce-rtx-30-series-laptops-evens-4c25-P@2x.jpg"
@@ -216,10 +216,10 @@ function NVDIA_STORE_MAIN() {
                         ></img>
                       </a>
                       <div className="item-content text-center">
-                        <a href="/Shop" className="address-name-item color-black">
+                        <a href="/websiteDoAn/Shop" className="address-name-item color-black">
                           <h3 className="color-black">GeForce Laptop</h3>
                         </a>
-                        <a href="/Shop" className="address-shop-item color-green ">
+                        <a href="/websiteDoAn/Shop" className="address-shop-item color-green ">
                           Shop Now &nbsp;
                           <i
                             className="icon-content fa fa-angle-right"
@@ -231,15 +231,15 @@ function NVDIA_STORE_MAIN() {
                   </div>
                   <div className="  mt-32 text-center col l-3 m-6 c-12">
                     <div className="list-item">
-                      <a href="/Shop">
+                      <a href="/websiteDoAn/Shop">
            
                     <img  src={PICTURE.geforce_now_event}    alt="geforce-now-evens-4c25-P@2x.jpg"  className="produce-picture"></img>
                       </a>
                       <div className="item-content text-center">
-                        <a href="/Shop" className="address-name-item color-black">
+                        <a href="/websiteDoAn/Shop" className="address-name-item color-black">
                           <h3 className="color-black">GeForce Now</h3>
                         </a>
-                        <a href="/Shop" className="address-shop-item color-green ">
+                        <a href="/websiteDoAn/Shop" className="address-shop-item color-green ">
                           Shop Now &nbsp;
                           <i
                             className="icon-content fa fa-angle-right"
@@ -251,15 +251,15 @@ function NVDIA_STORE_MAIN() {
                   </div>
                   <div className="   mt-32 text-center col l-3 m-6 c-12">
                     <div className="list-item">
-                      <a href="/Shop">
+                      <a href="/websiteDoAn/Shop">
             
                     <img src={PICTURE.nvidia_shield_event}  alt="nvidia-shield-evens-4c25-P@2x.jpg"  className="d produce-picture"></img>
                       </a>
                       <div className="item-content text-center">
-                        <a href="/Shop" className="address-name-item color-black">
+                        <a href="/websiteDoAn/Shop" className="address-name-item color-black">
                           <h3 className="color-black">NVIDIA SHIELD</h3>
                         </a>
-                        <a href="/Shop" className="address-shop-item color-green ">
+                        <a href="/websiteDoAn/Shop" className="address-shop-item color-green ">
                           Shop Now &nbsp;
                           <i
                             className="icon-content fa fa-angle-right"
@@ -284,7 +284,7 @@ function NVDIA_STORE_MAIN() {
                 <div className="row">
                   <div className="col mt-32 text-center l-3 m-6 c-12">
                     <div className="list-item">
-                      <a href="/Shop">
+                      <a href="/websiteDoAn/Shop">
                         <div>
                           <img
                             src={PICTURE.nvidia_studio_laptops}
@@ -294,12 +294,12 @@ function NVDIA_STORE_MAIN() {
                         </div>
                       </a>
                       <div className="item-content text-center">
-                        <a href="/Shop" className="address-name-item">
+                        <a href="/websiteDoAn/Shop" className="address-name-item">
                           <h3 className="color-black">
                             STUDIO Creator Laptops and Desktops
                           </h3>
                         </a>
-                        <a href="/Shop" className="address-shop-item color-green ">
+                        <a href="/websiteDoAn/Shop" className="address-shop-item color-green ">
                           Shop Now &nbsp;
                           <i
                             className="icon-content fa fa-angle-right"
@@ -311,17 +311,17 @@ function NVDIA_STORE_MAIN() {
                   </div>
                   <div className=" col  mt-32 text-center l-3 m-6 c-12">
                     <div className="list-item">
-                      <a href="/Shop">
+                      <a href="/websiteDoAn/Shop">
                       
                     <img src={PICTURE.nvidia_rtx_a6000} className="produce-picture" alt="nvidia-rtx-a6000-evens-4c25-P@2x.jpg"></img>
                       </a>
                       <div className="item-content text-center">
-                        <a href="/Shop" className="address-name-item color-black">
+                        <a href="/websiteDoAn/Shop" className="address-name-item color-black">
                           <h3 className="color-black">
                             NVIDIA RTX Professional Graphics Cards
                           </h3>
                         </a>
-                        <a href="/Shop" className="address-shop-item color-green ">
+                        <a href="/websiteDoAn/Shop" className="address-shop-item color-green ">
                           Shop Now &nbsp;
                           <i
                             className="icon-content fa fa-angle-right"
@@ -333,17 +333,17 @@ function NVDIA_STORE_MAIN() {
                   </div>
                   <div className=" col  mt-32 text-center l-3 m-6 c-12">
                     <div className="list-item">
-                      <a href="/Shop">
+                      <a href="/websiteDoAn/Shop">
                      
                     <img src={PICTURE.nvidia_titan_rtx}  alt="nvidia-titan-rtx-evens-4c25-P@2x.jpg" className="produce-picture"></img>
                       </a>
                       <div className="item-content text-center">
-                        <a href="/Shop" className="address-name-item color-black">
+                        <a href="/websiteDoAn/Shop" className="address-name-item color-black">
                           <h3 className="color-black">
                             NVIDIA TITAN Graphics Cards
                           </h3>
                         </a>
-                        <a href="/Shop" className="address-shop-item color-green ">
+                        <a href="/websiteDoAn/Shop" className="address-shop-item color-green ">
                           Shop Now &nbsp;
                           <i
                             className="icon-content fa fa-angle-right"
@@ -357,10 +357,10 @@ function NVDIA_STORE_MAIN() {
                     <div className="list-item">
                   <img  src={PICTURE.nvidia_jetson_family} alt="/nvidia-jetson-family-evens-4c25-P@2x.jpg"  className="d produce-picture"></img>
                       <div className="item-content text-center">
-                        <a href="/Shop" className="address-name-item color-black">
+                        <a href="/websiteDoAn/Shop" className="address-name-item color-black">
                           <h3 className="color-black">NVIDIA Jetson</h3>
                         </a>
-                        <a href="/Shop" className="address-shop-item color-green ">
+                        <a href="/websiteDoAn/Shop" className="address-shop-item color-green ">
                           Shop Now &nbsp;
                           <i
                             className="icon-content fa fa-angle-right"
@@ -382,14 +382,14 @@ function NVDIA_STORE_MAIN() {
               <div className="row produce-list">
                 <div className=" col l-3 m-6 mt-32 text-center c-12">
                   <div className="list-item">
-                    <a href="/Shop">
+                    <a href="/websiteDoAn/Shop">
                       <div>
                  
                     <img  src={PICTURE.nvidia_networking} alt="nvidia-networking-adapters-evens-3c33-P@2x.jpg" className="produce-picture"></img>
                       </div>
                     </a>
                     <div className="item-content text-center">
-                      <a href="/Shop" className="address-name-item">
+                      <a href="/websiteDoAn/Shop" className="address-name-item">
                         <h3 className="color-black">Adapter Cards</h3>
                       </a>
                       <a href="" className="address-shop-item color-green ">
@@ -404,15 +404,15 @@ function NVDIA_STORE_MAIN() {
                 </div>
                 <div className=" col l-3 m-6 mt-32 text-center c-12">
                   <div className="list-item">
-                    <a href="/Shop">
+                    <a href="/websiteDoAn/Shop">
                   
                   <img src={PICTURE.nvidia_networking_switch} className="produce-picture" alt="nvidia-networking-switches-evens-3c33-P@2x.jpg"></img>
                     </a>
                     <div className="item-content text-center">
-                      <a href="/Shop" className="address-name-item color-black">
+                      <a href="/websiteDoAn/Shop" className="address-name-item color-black">
                         <h3 className="color-black">Switch Systems</h3>
                       </a>
-                      <a href="/Shop" className="address-shop-item color-green ">
+                      <a href="/websiteDoAn/Shop" className="address-shop-item color-green ">
                         Shop Now &nbsp;
                         <i
                           className="icon-content fa fa-angle-right"
@@ -424,7 +424,7 @@ function NVDIA_STORE_MAIN() {
                 </div>
                 <div className=" col l-3 m-6 mt-32 text-center c-12">
                   <div className="list-item">
-                    <a href="/Shop">
+                    <a href="/websiteDoAn/Shop">
                       <img
                     src={PICTURE.bluefield}
                     alt="bluefield"
@@ -432,10 +432,10 @@ function NVDIA_STORE_MAIN() {
                   />
                     </a>
                     <div className="item-content text-center">
-                      <a href="/Shop" className="address-name-item color-black">
+                      <a href="/websiteDoAn/Shop" className="address-name-item color-black">
                         <h3 className="color-black">DPU</h3>
                       </a>
-                      <a href="/Shop" className="address-shop-item color-green ">
+                      <a href="/websiteDoAn/Shop" className="address-shop-item color-green ">
                         Shop Now &nbsp;
                         <i
                           className="icon-content fa fa-angle-right"
@@ -447,7 +447,7 @@ function NVDIA_STORE_MAIN() {
                 </div>
                 <div className=" col l-3 m-6 mt-32 text-center c-12">
                   <div className="list-item">
-                    <a href="/Shop">
+                    <a href="/websiteDoAn/Shop">
                       <img
                     src={PICTURE.nvidia_interconnect}
                     alt="nvidia-interconnect-evens-3c33-P@2x.jpg"
@@ -455,10 +455,10 @@ function NVDIA_STORE_MAIN() {
                   />
                     </a>
                     <div className="item-content text-center">
-                      <a href="/Shop" className="address-name-item color-black">
+                      <a href="/websiteDoAn/Shop" className="address-name-item color-black">
                         <h3 className="color-black">Interconnect</h3>
                       </a>
-                      <a href="/Shop" className="address-shop-item color-green ">
+                      <a href="/websiteDoAn/Shop" className="address-shop-item color-green ">
                         Shop Now &nbsp;
                         <i
                           className="icon-content fa fa-angle-right"
