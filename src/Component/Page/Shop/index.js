@@ -27,7 +27,9 @@ function Shop(){
 
 
 
-
+    {
+      console.log("Shop component loaded")
+      }
 
     const handleGridViewClick = () => {
       setGridView(true);
@@ -510,7 +512,7 @@ return(
   </div>
   </div>
   </div>
-  {/*  */}
+
 </>
 
 )

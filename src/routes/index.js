@@ -14,7 +14,8 @@ import Products_gtx_4090 from "../Component/Page/Products/Products_gtx_4090.js";
 import Products_gtx_Titan from "../Component/Page/Products/Products_gtx_Titan.js";
 import Search from "../Component/Page/Search/index.js";
 import Service from "../Component/Page/Service/Service.js";
-import Shop from "../Component/Page/Shop/Shop.js";
+import Shop from '../Component/Page/Shop/index.js';
+
 const publicRoutes = [
   {
     path: "/websiteDoAn",
