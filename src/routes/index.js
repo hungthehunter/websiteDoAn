@@ -38,9 +38,7 @@ const publicRoutes = [
     {
       path: "/websiteDoAn/Search",
       component: Search,
-    },
-    // ... other routes
-  
+    }, 
   {
     path:"/websiteDoAn/Main",
     component: NVDIA_STORE_MAIN,

@@ -6,10 +6,11 @@ import { publicRoutes } from "./routes";
 function App() {
   return (
    
-    <Router >
+    <Router>
       <div className="App">
         <Routes >
           {publicRoutes.map((route, index) => {
+             console.log(`Mapping route: ${route.path}`);
             const Page = route.component;
 
             let Layout = DefaultLayout;
