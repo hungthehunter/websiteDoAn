@@ -22,7 +22,7 @@ const Shop_Fake = ({ isGridView, searchItem, categoryFilters }) => {
   const productCategory = [
     {
       id: 1,
-      name: 'Màn hình Viewsonic VA2432-H-W 24" IPS 100Hz viền mỏng',
+      name: 'Screen Viewsonic VA2432-H-W 24" IPS 100Hz viền mỏng',
       picture: PICTURE.laptop,
       ProductCategory: "laptops",
       Manufacturer: "NVIDIA",

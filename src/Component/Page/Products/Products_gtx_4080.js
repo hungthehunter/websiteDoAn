@@ -77,14 +77,14 @@ function Products_gtx_4080() {
                   <p className="products-desc">
                     <strong>
                       <span style={{ fontSize: 20, marginBottom: 10 }}>
-                        - Hỗ trợ đổi mới trong 7 ngày.
+                        - Support change new in 7 days
                       </span>
                     </strong>
                   </p>
                   <p className="products-desc">
                     <strong>
                       <span style={{ fontSize: 20, marginBottom: 10 }}>
-                        - Giảm thêm 100k khi mua kèm PC/Laptop
+                        - Discont $10 buying with PC/Laptop
                       </span>
                     </strong>
                   </p>
@@ -92,7 +92,7 @@ function Products_gtx_4080() {
 
                 <div className="products-discount-promo-box">
                   <div className="products-box-header">
-                    <h2>Khuyến mãi</h2>
+                    <h2>Discount</h2>
                   </div>
                   <div className="products-box-content">
                     <div className="products-discount-promo--content">
@@ -101,7 +101,7 @@ function Products_gtx_4080() {
                           <li>
                             <div className="line-discount">
                               <span>
-                                Giảm ngay 8.000.000Đ khi mua kèm màn hình với PC
+                                Discount $10 buying with PC
                                 GVN x ASUS EVANGELION 2
                               </span>
                             </div>
@@ -109,7 +109,7 @@ function Products_gtx_4080() {
                           <li>
                             <div className="line-discount">
                               <span>
-                                Giảm ngay 7.000.000đ khi mua Màn hình cùng PC
+                                Discount $10 buying with PC
                                 GVN Gaming Intel i7-13700F/ VGA RTX 4070.{" "}
                               </span>
                             </div>
@@ -117,7 +117,7 @@ function Products_gtx_4080() {
                           <li>
                             <div className="line-discount">
                               <span>
-                                Giảm ngay 2.000.000đ khi mua Màn hình cùng PC
+                              Discount $10 buying with PC
                                 GVN Gaming Intel i5-13600KF/ VGA RTX 3060.{" "}
                               </span>
                             </div>
@@ -125,7 +125,7 @@ function Products_gtx_4080() {
                           <li>
                             <div className="line-discount">
                               <span>
-                                Giảm 41% khi mua kèm giá treo màn hình North
+                              Discount $10 buying with North screen
                                 Bayou NB-F80 với màn hình giá chỉ 290.000đ.{" "}
                               </span>
                             </div>
