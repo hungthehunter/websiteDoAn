@@ -17,76 +17,76 @@ import Service from "../Component/Page/Service/Service.js";
 import Shop from "../Component/Page/Shop/Shop.js";
 const publicRoutes = [
   {
-    path: "/",
+    path:  process.env.PUBLIC_URL+"/",
     component: NVDIA_STORE_MAIN,
 
   },
 
   {
-    path: "/Service",
+    path: process.env.PUBLIC_URL+"/Service",
     component: Service,
   },
 
   {
-    path: "/Shop",
+    path: process.env.PUBLIC_URL+"/Shop",
    component: Shop,
   },
 
   {
-    path: "/Login",
+    path: process.env.PUBLIC_URL+"/Login",
     component: Login,
     layout:HeaderOnly
   },
   {
-    path: "/Search",
+    path: process.env.PUBLIC_URL+"/Search",
     component: Search,
   },
   {
-    path:"/Main",
+    path: process.env.PUBLIC_URL+"/Main",
     component: NVDIA_STORE_MAIN,
   },
   {
-    path:"/Products",
+    path: process.env.PUBLIC_URL+"/Products",
     component: Products
   },
   {
-    path:"/Products_gtx_4080",
+    path: process.env.PUBLIC_URL+"/Products_gtx_4080",
     component: Products_gtx_4080
   },
   {
-    path:"/Products_gtx_4090",
+    path: process.env.PUBLIC_URL+"/Products_gtx_4090",
     component: Products_gtx_4090
   },
 {
-  path:"/Policy",
+  path: process.env.PUBLIC_URL+"/Policy",
   component: Policy
 },
 {
-  path:"/CustomerOrderDetail",
+  path: process.env.PUBLIC_URL+"/CustomerOrderDetail",
   component: CustomerOrderDetail,
   layout: BodyOnly
 },
 {
-  path:"/userAdmin",
+  path: process.env.PUBLIC_URL+"/userAdmin",
   component: userAdmin,
   layout: BodyOnly
 
 },
 {
-  path:"/orderAdmin",
+  path: process.env.PUBLIC_URL+"/orderAdmin",
   component: orderAdmin,
   layout: BodyOnly
 },
 {
-  path:"/Products_gtx_Titan",
+  path: process.env.PUBLIC_URL+"/Products_gtx_Titan",
   component:Products_gtx_Titan
 },
 {
-  path:"/Products_gtx_4070Ti",
+  path: process.env.PUBLIC_URL+"/Products_gtx_4070Ti",
   component: Products_gtx_4070Ti
 },
 {
-  path:"/Products_gtx_4060",
+  path: process.env.PUBLIC_URL+"/Products_gtx_4060",
   component: Products_gtx_4060
 },
 ];

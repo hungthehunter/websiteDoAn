@@ -2,6 +2,7 @@ import { faEdit, faTrashAlt } from '@fortawesome/free-solid-svg-icons'; // Impor
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import FontAwesomeIcon
 import React from 'react';
 import { RiAdminLine } from "react-icons/ri";
+import icon from '../../Assests/ICON';
 import './userAdmin.scss'; // Import your stylesheet
 
 const UserAdmin = () => {
@@ -33,7 +34,11 @@ const UserAdmin = () => {
                         {/*link homepage*/}
                         <li className="left">
                             <a href="productAdmin.html">
-                                <img src="../../img/thegioididong.png" alt="Logo" />
+                            <img
+                  src={icon.nvidia}
+                  alt="nvidia-icon"
+                  style={{ width: 110, height: 44 }}
+                ></img>
                             </a>
                         </li>
                         <div className="right">
@@ -60,7 +65,7 @@ const UserAdmin = () => {
                     <button id="openNav" className="menu-button" onClick={openSidebar}>&#9776; Menu</button>
                     <h1>Người Dùng</h1>
                     {/* create button */}
-                    {/* mình dùng lại code của trang sửa thông tin sản phẩm */}
+                    {}
                     {/* user's information list*/}
                     <table>
                         {/*noi dung tieu de*/}
@@ -77,8 +82,8 @@ const UserAdmin = () => {
                         <tr className="user">
                             <td>#1</td>
                             <td><a href="userDetail.html"><img src="" alt="per1" /></a></td>
-                            <td></td>
-                            <td></td>
+                            <td>Quoc Hung</td>
+                            <td>quochung@gmail.com</td>
                             <td>Admin</td>
                             <td>
                                 <a href="editUser.html" className="action-button">
@@ -97,8 +102,8 @@ const UserAdmin = () => {
                         <tr className="user">
                             <td>#2</td>
                             <td><a href="userDetail.html"><img src="" alt="per1" /></a></td>
-                            <td></td>
-                            <td></td>
+                            <td>Nguyen Bang</td>
+                            <td>nguyenbang111@gmail.com</td>
                             <td>Admin</td>
                             <td>
                                 <a href="editUser.html" className="action-button">
@@ -117,8 +122,8 @@ const UserAdmin = () => {
                         <tr className="user">
                             <td>#3</td>
                             <td><a href="userDetail.html"><img src="" alt="per1" /></a></td>
-                            <td></td>
-                            <td></td>
+                            <td>nananana</td>
+                            <td>nananana@gmail.com</td>
                             <td>Admin</td>
                             <td>
                                 <a href="editUser.html" className="action-button">
