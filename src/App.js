@@ -1,14 +1,17 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import NVDIA_STORE_MAIN from "../Component/Page/Main/NVDIA_STORE_MAIN.js";
-import Shop from '../Component/Page/Shop/index.js';
+import { Fragment } from "react";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
+import DefaultLayout from "./Component/Layout/Component/DefaultLayout";
+import { publicRoutes } from "./routes";
+
 function App() {
+  const RouterComponent = process.env.NODE_ENV === 'production' ? HashRouter : BrowserRouter;
+
   return (
-   
-    <Router>
+    <RouterComponent>
       <div className="App">
-        {/* <Routes >
+        <Routes >
           {publicRoutes.map((route, index) => {
-             console.log(`Mapping route: ${route.path}`);
+            console.log(`Mapping route: ${route.path}`);
             const Page = route.component;
 
             let Layout = DefaultLayout;
@@ -29,14 +32,9 @@ function App() {
               />
             );
           })}
-        </Routes> */}
-
-        <Routes>
-          <Route   path="/websiteDoAn/" element={<NVDIA_STORE_MAIN/>}/>
-          <Route   path="/websiteDoAn/Shop" element={<Shop/>}/>
         </Routes>
       </div>
-    </Router>
+    </RouterComponent>
   );
 }
 
