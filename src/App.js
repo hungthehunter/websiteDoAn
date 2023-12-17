@@ -1,13 +1,13 @@
 import { Fragment } from "react";
-import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import DefaultLayout from "./Component/Layout/Component/DefaultLayout";
 import { publicRoutes } from "./routes";
 
 function App() {
-  const RouterComponent = process.env.NODE_ENV === 'production' ? HashRouter : BrowserRouter;
+  // const RouterComponent = process.env.NODE_ENV === 'production' ? HashRouter : BrowserRouter;
 
   return (
-    <RouterComponent>
+    <BrowserRouter>
       <div className="App">
         <Routes >
           {publicRoutes.map((route, index) => {
@@ -34,7 +34,7 @@ function App() {
           })}
         </Routes>
       </div>
-    </RouterComponent>
+    </BrowserRouter>
   );
 }
 

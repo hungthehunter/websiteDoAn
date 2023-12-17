@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+import { Link } from "react-router-dom";
 import PICTURE from "../../Assests/PICTURE";
 import "../../Layout/Component/Footer/index.js";
 import Footer from "../../Layout/Component/Footer/index.js";
@@ -251,10 +252,9 @@ function NVDIA_STORE_MAIN() {
                   </div>
                   <div className="   mt-32 text-center col l-3 m-6 c-12">
                     <div className="list-item">
-                      <a href="/websiteDoAn/Shop">
-            
+                    <Link to="/websiteDoAn/Shop">
                     <img src={PICTURE.nvidia_shield_event}  alt="nvidia-shield-evens-4c25-P@2x.jpg"  className="d produce-picture"></img>
-                      </a>
+                    </Link>
                       <div className="item-content text-center">
                         <a href="/websiteDoAn/Shop" className="address-name-item color-black">
                           <h3 className="color-black">NVIDIA SHIELD</h3>

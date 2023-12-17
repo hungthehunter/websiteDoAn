@@ -62,40 +62,6 @@ function Header() {
               ) : (
                 <div></div>
               )
-              //  <div className={cx("nav-header-container")}>
-              //  <div className={cx("nav-container")}>
-              //    <ul className={cx("nav-menu-list", "left")}>
-              //      <li className={cx("nav-menu-item")}>
-              //        <label className={cx("nav-menu-button")}>Products</label>
-              //      </li>
-              //      <li className={cx("nav-menu-item")}>
-              //        <label className={cx("nav-menu-button")}>Solutions</label>
-              //      </li>
-              //      <li className={cx("nav-menu-item")}>
-              //        <label className={cx("nav-menu-button")}>Industries</label>
-              //      </li>
-              //      <li className={cx("nav-menu-item")}>
-              //        <label className={cx("nav-menu-button")}>For You</label>
-              //      </li>
-              //    </ul>
-
-              //    <ul className={cx("nav-menu-list", "right")}>
-              //      <li className={cx("nav-menu-item")}>
-              //        <label className={cx("nav-menu-button")}>Shop</label>
-              //      </li>
-              //      <li className={cx("nav-menu-item")}>
-              //        <label className={cx("nav-menu-button")}>Drivers</label>
-              //      </li>
-              //      <li className={cx("nav-menu-item")}>
-              //        <label className={cx("nav-menu-button")}>Support</label>
-              //      </li>
-              //    </ul>
-              //  </div>
-              //  <div className={cx("nav-tool-container")}>
-              // <GiHamburgerMenu size={28} className={cx("nav-header-item")} onClick={()=>setShowNav(!showNav)}/>
-              // <Sidebar show={showNav}/>
-              //  </div>
-              //  </div>
             }
           </div>
           <nav className={cx("navbar-fixed-top")}>
